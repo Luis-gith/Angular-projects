@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { TodosComponent } from './todos/todos.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { TodosComponent } from './todos/todos.component';
   imports:[
      BrowserModule,
      BrowserAnimationsModule,
+     FormsModule,
   ],
 
   providers: [],

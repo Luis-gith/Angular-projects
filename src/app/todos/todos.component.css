@@ -54,3 +54,12 @@
 	font-size: 18px;
 	font-weight: 700;
 }
+
+.btns {
+	align-content: space-between;
+}
+.completed {
+	background-color: green;
+	color: #FFF;
+	
+}
